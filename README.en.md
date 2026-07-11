@@ -26,3 +26,7 @@ The pet uses `spriteVersionNumber: 2`, with a 1536 × 2288 WebP spritesheet and 
 2. Place that directory in Codex's custom-pet location, or add it through Codex's pet-import flow.
 3. Restart Codex, or switch away from the pet and then select `AmeChan` again in the pet picker.
 4. Once selected, AmeChan provides nine state animations and 16 look directions.
+
+## License Notice
+
+You may freely use, modify, create derivative works from, and redistribute this project for non-commercial purposes only. Commercial use of this project or its derivatives is prohibited.
