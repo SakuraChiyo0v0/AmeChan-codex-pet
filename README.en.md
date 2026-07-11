@@ -20,6 +20,9 @@ A Codex-compatible v2 animated pet inspired by a red rabbit-hoodie, bat-wing cha
 
 The pet uses `spriteVersionNumber: 2`, with a 1536 × 2288 WebP spritesheet and transparent background. It passed structural validation and final visual QA.
 
-## Publishing
+## Usage
 
-No machine-specific paths, source-image history, or local generation records are included in this folder. Add your chosen open-source license before publishing.
+1. Keep `pet.json` and `spritesheet.webp` in the same pet directory.
+2. Place that directory in Codex's custom-pet location, or add it through Codex's pet-import flow.
+3. Restart Codex, or switch away from the pet and then select `AmeChan` again in the pet picker.
+4. Once selected, AmeChan provides nine state animations and 16 look directions.
