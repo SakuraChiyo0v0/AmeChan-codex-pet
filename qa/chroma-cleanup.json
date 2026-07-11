@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "chromaKey": "#00FFFF",
+  "alphaPreserved": true,
+  "rejectedPixels": 0
+}

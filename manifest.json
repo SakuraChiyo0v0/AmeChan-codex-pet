@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "AmeChan",
+  "displayName": "AmeChan",
+  "spriteVersionNumber": 2,
+  "spritesheet": {
+    "file": "spritesheet.webp",
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cellWidth": 192,
+    "cellHeight": 208
+  },
+  "previews": [
+    "gifs/idle.gif",
+    "gifs/running-right.gif",
+    "gifs/running-left.gif",
+    "gifs/waving.gif",
+    "gifs/jumping.gif",
+    "gifs/failed.gif",
+    "gifs/waiting.gif",
+    "gifs/running.gif",
+    "gifs/review.gif",
+    "gifs/look-row-9.gif",
+    "gifs/look-row-10.gif",
+    "gifs/look-loop.gif"
+  ],
+  "qa": {
+    "structuralValidation": "qa/validation.json",
+    "chromaCleanup": "qa/chroma-cleanup.json",
+    "directionSemantics": "qa/direction-semantics.json",
+    "continuity": "qa/look-continuity.json",
+    "visualReview": "qa/final-visual-qa.txt"
+  }
+}

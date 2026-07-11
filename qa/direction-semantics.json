@@ -1,0 +1,23 @@
+{
+  "reviewed_by": "independent-candidate-direction-semantic-qa",
+  "directions": [
+    {"direction":"000","verdict":"pass","expected":"up","observed":"clear upward head and eye pose","reason":"The face and eye line unmistakably aim upward."},
+    {"direction":"022.5","verdict":"warning","expected":"up-right","observed":"coherent up-right progression","reason":"The labeled loop reads correctly; the blind horizontal cue conflicts."},
+    {"direction":"045","verdict":"warning","expected":"up-right","observed":"coherent up-right progression","reason":"The labeled loop reads correctly; the blind horizontal cue conflicts."},
+    {"direction":"067.5","verdict":"pass","expected":"up-right","observed":"clear up-right transition toward right","reason":"The turn advances naturally toward 090."},
+    {"direction":"090","verdict":"pass","expected":"screen-right","observed":"unmistakable screen-right profile","reason":"The right cardinal is clearly readable."},
+    {"direction":"112.5","verdict":"warning","expected":"down-right","observed":"coherent down-right loop position","reason":"The labeled loop reads correctly; the blind horizontal cue conflicts."},
+    {"direction":"135","verdict":"warning","expected":"down-right","observed":"coherent down-right pose","reason":"The labeled loop reads correctly; the blind horizontal cue conflicts."},
+    {"direction":"157.5","verdict":"warning","expected":"down-right","observed":"coherent down-right approach to 180","reason":"The labeled loop reads correctly; the blind horizontal cue conflicts."},
+    {"direction":"180","verdict":"pass","expected":"down","observed":"unmistakable bowed downward pose","reason":"The downward cardinal is clearly readable."},
+    {"direction":"202.5","verdict":"warning","expected":"down-left","observed":"coherent down-left progression","reason":"The labeled loop reads correctly; the blind horizontal cue conflicts."},
+    {"direction":"225","verdict":"warning","expected":"down-left","observed":"repaired down-left eye, eyelid, and head pose","reason":"The ordered loop confirms the left/down quadrant; blind horizontal cue remains disputed."},
+    {"direction":"247.5","verdict":"warning","expected":"down-left","observed":"coherent next down-left step","reason":"There is no reversal from 225, but blind horizontal and vertical cues are weak or conflicting."},
+    {"direction":"270","verdict":"pass","expected":"screen-left","observed":"unmistakable screen-left cardinal","reason":"The left cardinal is clearly readable."},
+    {"direction":"292.5","verdict":"warning","expected":"up-left","observed":"coherent up-left progression","reason":"The blind vertical cue conflicts, while the labeled loop reads correctly."},
+    {"direction":"315","verdict":"warning","expected":"up-left","observed":"coherent up-left progression","reason":"The blind horizontal cue conflicts, while the labeled loop reads correctly."},
+    {"direction":"337.5","verdict":"warning","expected":"up-left","observed":"repaired up-left final step before 000","reason":"The labeled loop reads correctly without a visible snap; blind horizontal cue remains disputed."}
+  ],
+  "continuity_verdict": "warning",
+  "continuity_reason": "Metric outliers remain at 000/022.5, 157.5/180, and 337.5/000, but normal-size review finds no visible reversal, snap, clipping, seam, or identity break."
+}

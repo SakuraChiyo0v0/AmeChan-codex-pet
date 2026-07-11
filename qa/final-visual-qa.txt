@@ -1,0 +1,6 @@
+visual_qa=pass
+qa_note=All 11 rows preserve the same red bunny-hoodie bat-wing character with clean transparent silhouettes, readable state motion, and passing cardinal blind gates.
+direction_semantics=000 pass clear upward gaze;022.5 warning coherent up-right with subtle lateral cue;045 warning coherent up-right with subtle lateral cue;067.5 pass clear up-right progression;090 pass clear screen-right profile;112.5 warning coherent down-right with subtle lateral cue;135 warning coherent down-right with subtle lateral cue;157.5 warning coherent down-right approach;180 pass clear bowed downward gaze;202.5 warning coherent down-left with subtle lateral cue;225 pass repaired pose clearly reads down-left;247.5 warning continues leftward from 225 without reversal;270 pass clear screen-left profile;292.5 warning coherent up-left with subtle vertical cue;315 warning coherent up-left with subtle lateral cue;337.5 warning repaired pose reads up-left and transitions smoothly into 000
+review_warnings=accepted intermediate blind-axis ambiguity after labeled loop review;accepted continuity metric outliers at 000-to-022.5, 157.5-to-180, and 337.5-to-000 with no visible snap
+repair_rows=none
+repair_notes=none
