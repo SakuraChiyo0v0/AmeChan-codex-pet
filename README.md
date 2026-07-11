@@ -1,23 +1,31 @@
 # AmeChan
 
-A Codex-compatible v2 animated pet inspired by a red rabbit-hoodie, bat-wing character.
+[English](README.en.md)
 
-## Contents
+AmeChan 是一只兼容 Codex v2 的动态桌宠。她戴着深红色兔耳兜帽与白色蝴蝶结，留有灰色侧刘海，并拥有小巧的蝙蝠翼。
 
-- `pet.json`: Codex pet metadata.
-- `spritesheet.webp`: 8-column × 11-row v2 spritesheet, with 192 × 208 pixel cells.
-- `contact-sheet-extended.png`: static overview of every animation and direction frame.
-- `gifs/`: preview GIFs for all nine standard actions plus the two look rows and complete 16-direction loop.
-- `qa/`: sanitized validation and visual QA reports.
+## 内容一览
 
-## Action GIFs
+- `pet.json`：Codex 宠物配置文件。
+- `spritesheet.webp`：v2 精灵表，共 8 列 × 11 行；每格为 192 × 208 像素。
+- `contact-sheet-extended.png`：所有动作与方向帧的总览图。
+- `gifs/`：九种标准动作、两行方向动画，以及完整 16 方向循环的 GIF 预览。
+- `qa/`：已脱敏的结构验证、透明边缘处理、方向语义和视觉 QA 记录。
 
-`idle`, `running-right`, `running-left`, `waving`, `jumping`, `failed`, `waiting`, `running`, and `review` each have a dedicated GIF. `look-row-9.gif`, `look-row-10.gif`, and `look-loop.gif` preview the direction system.
+## 动作 GIF
 
-## Compatibility
+每种标准状态都有独立 GIF：`idle`、`running-right`、`running-left`、`waving`、`jumping`、`failed`、`waiting`、`running` 与 `review`。
 
-The pet uses `spriteVersionNumber: 2`, with a 1536 × 2288 WebP spritesheet and transparent background. It passed structural validation and final visual QA.
+方向系统则由以下 GIF 展示：
 
-## Publishing
+- `look-row-9.gif`：从上方到右下方的八个方向。
+- `look-row-10.gif`：从下方到左上方的八个方向。
+- `look-loop.gif`：完整的 16 方向循环。
 
-No machine-specific paths, source-image history, or local generation records are included in this folder. Add your chosen open-source license before publishing.
+## 兼容性
+
+该宠物使用 `spriteVersionNumber: 2`，精灵表尺寸为 1536 × 2288，背景为透明，并已通过 v2 结构验证与最终视觉 QA。
+
+## 开源发布说明
+
+本目录不包含原始参考图、生成历史、本机路径或其他本地工作记录。发布前请根据你的需要补充开源许可证。
